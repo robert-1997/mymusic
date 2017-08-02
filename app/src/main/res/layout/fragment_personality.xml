@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.youth.banner.Banner
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+        <include
+            android:id="@+id/iv_person_FM"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            layout="@layout/item_net_second"
+            android:layout_weight="1"/>
+        <include
+            android:id="@+id/iv_daily_recommend"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            layout="@layout/item_net_second"
+            android:layout_weight="1"/>
+        <include
+            android:id="@+id/iv_hot_song"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            layout="@layout/item_net_second"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>
